@@ -1,18 +1,233 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Alejandro Luis Sabaria</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alejandro Luis Sabaria | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">ALS</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<body style="font-family: Arial; text-align: center; padding-top: 100px;">
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-text">
+        <p class="eyebrow">Personal Portfolio</p>
+        <h1>Alejandro Luis Sabaria</h1>
+        <p class="subtitle">Electronics Engineer | Robotics | AI | Embedded Systems | Automation</p>
+        <p class="hero-copy">Building intelligent real-world systems through hardware and software integration.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="images/img-000.jpg" alt="Alejandro Luis Sabaria profile photo" />
+      </div>
+    </section>
 
-    <h1>Alejandro Luis Sabaria</h1>
+    <section id="about" class="section two-column">
+      <div>
+        <p class="eyebrow">About Me</p>
+        <h2>Growth-oriented and passionate about learning new cutting-edge technology.</h2>
+      </div>
+      <p>
+        Licensed Electronics Engineer (ECE) and Electronics Technician (ECT) with foundations in automation, embedded systems, robotics, and industrial technologies. Experienced in electronics development, troubleshooting, system integration, and AI-based engineering projects. Possesses international academic exposure from South Korea and strong interest in industrial automation, technical support, and engineering solutions.
+      </p>
+    </section>
 
-    <h2>Electronics Engineer | Robotics | AI | Embedded Systems</h2>
+    <section id="projects" class="section">
+      <p class="eyebrow">Featured Work</p>
+      <h2>Projects and Laboratory Experience</h2>
 
-    <p>
-        Welcome to my engineering portfolio.
-    </p>
+      <div class="project-grid">
+        <article class="project-card large">
+          <div class="project-images four">
+            <img src="images/img-001.jpg" alt="Rice pest detection prototype" />
+            <img src="images/img-002.jpg" alt="Embedded sensor circuit" />
+            <img src="images/img-003.jpg" alt="Laptop running AI detection" />
+            <img src="images/img-004.jpg" alt="Rice pest elimination system deployed outdoors" />
+          </div>
+          <div class="project-content">
+            <h3>AI-Based Rice Pest Detection and Elimination System</h3>
+            <p>AI-powered rice pest detection and elimination system using Raspberry Pi, YOLO, and embedded sensor integration.</p>
+            <span>Raspberry Pi</span><span>YOLO</span><span>Embedded AI</span>
+          </div>
+        </article>
 
+        <article class="project-card large">
+          <div class="project-images three">
+            <img src="images/img-006.jpg" alt="Wearable flotation vest" />
+            <img src="images/img-005.jpg" alt="Water sensor testing" />
+            <img src="images/img-007.jpg" alt="ESP32 prototype circuit" />
+          </div>
+          <div class="project-content">
+            <h3>Wearable Drowning Detection and Emergency Flotation System</h3>
+            <p>Wearable drowning detection and emergency response system using ESP32 and physiological sensors.</p>
+            <span>ESP32</span><span>IoT</span><span>Sensor Fusion</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-images four">
+            <img src="images/img-008.jpg" alt="PLC elevator team photo" />
+            <img src="images/img-009.jpg" alt="Elevator motor prototype" />
+            <img src="images/img-010.jpg" alt="PLC control panel" />
+            <img src="images/img-011.jpg" alt="Elevator prototype" />
+          </div>
+          <div class="project-content">
+            <h3>PLC and Arduino-Powered Elevator Prototype</h3>
+            <p>Developed a mini elevator prototype simulating real elevator functions using sensors and motors for pulley and door operations, powered by PLC, HMI, and Arduino systems.</p>
+            <span>PLC</span><span>HMI</span><span>Arduino</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-images four">
+            <img src="images/img-014.jpg" alt="Yahboom Transbot" />
+            <img src="images/img-016.jpg" alt="Transbot checkered pattern detection" />
+            <img src="images/img-012.jpg" alt="Arduino mobile robot setup" />
+            <img src="images/img-013.jpg" alt="Arduino mobile robot" />
+          </div>
+          <div class="project-content">
+            <h3>Mobile Robotics</h3>
+            <p>Programmed a ROS-powered Yahboom Transbot in South Korea for checkered pattern detection and developed an Arduino-powered mobile robot with Bluetooth control, obstacle avoidance, and go-to-goal navigation.</p>
+            <span>ROS</span><span>Arduino</span><span>Robotics</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-images two">
+            <img src="images/img-017.jpg" alt="Hand gesture detection system" />
+            <img src="images/img-018.jpg" alt="IoT hand gesture communication output" />
+          </div>
+          <div class="project-content">
+            <h3>IoT Hand Gesture Communication System</h3>
+            <p>Developed an IoT-based embedded system that converts hand gestures into text messages through a Raspberry Pi camera.</p>
+            <span>IoT</span><span>Raspberry Pi</span><span>Computer Vision</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-images four">
+            <img src="images/img-019.jpg" alt="Wireless transmitter PCB etching" />
+            <img src="images/img-020.jpg" alt="PCB fabrication" />
+            <img src="images/img-021.jpg" alt="Wireless transmitter breadboard" />
+            <img src="images/img-022.jpg" alt="Wireless transmitter lab photo" />
+          </div>
+          <div class="project-content">
+            <h3>Wireless Transmitter</h3>
+            <p>Developed a wireless transmitter for analog signal transmission, prototyped on a breadboard and fabricated on a PCB.</p>
+            <span>PCB</span><span>Analog</span><span>Electronics</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-images two">
+            <img src="images/img-023.jpg" alt="Speaker amplifier PCB" />
+            <img src="images/img-024.jpg" alt="Speaker amplifier circuit" />
+          </div>
+          <div class="project-content">
+            <h3>Speaker Amplifier</h3>
+            <p>Developed a speaker amplifier circuit applying BJT-based signal amplification principles.</p>
+            <span>BJT</span><span>Amplifier</span><span>Electronics</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-images three">
+            <img src="images/img-025.jpg" alt="Robotics lab relay project" />
+            <img src="images/img-026.jpg" alt="Robotics laboratory project" />
+            <img src="images/img-027.jpg" alt="LCD sensor project" />
+          </div>
+          <div class="project-content">
+            <h3>Robotics Laboratory Projects</h3>
+            <p>Completed foundational robotics laboratory projects involving relays, LEDs, ultrasonic sensors, LCDs, LUX sensors, IR sensors, and motor control systems.</p>
+            <span>Sensors</span><span>Motor Control</span><span>Arduino</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <p class="eyebrow">Experience Timeline</p>
+      <h2>Academic and Technical Growth</h2>
+      <div class="timeline">
+        <div><strong>Foundational Electronics</strong><p>BJT circuits, clippers, clampers, oscilloscopes, and signal analysis.</p></div>
+        <div><strong>Embedded Systems</strong><p>Assembly programming, LED matrix control, Arduino, sensors, and PCB fabrication.</p></div>
+        <div><strong>Robotics and Automation</strong><p>Mobile robots, ROS, PLC, HMI, SCADA, VFD motor control, and pneumatic systems.</p></div>
+        <div><strong>AI and System Integration</strong><p>Computer vision, IoT, Raspberry Pi, ESP32, and AI-based engineering prototypes.</p></div>
+      </div>
+    </section>
+
+    <section class="section lab-grid">
+      <article>
+        <img src="images/img-028.jpg" alt="MTS-88 microprocessor trainer" />
+        <h3>Microprocessor Programming Laboratory</h3>
+        <p>Programmed assembly code on the MTS-88 to display shapes on an LED matrix.</p>
+      </article>
+      <article>
+        <img src="images/img-030.jpg" alt="Oscilloscope signal reading" />
+        <h3>Electronics Laboratory</h3>
+        <p>Performed BJT circuit experiments using training boards and oscilloscopes to analyze signals and apply clipper and clamper circuit principles.</p>
+      </article>
+      <article>
+        <img src="images/img-032.jpg" alt="Industrial automation training board" />
+        <h3>Industrial Automation Laboratory</h3>
+        <p>Gained hands-on experience in PLC programming, HMI, SCADA, VFD motor control, solenoid valves, pneumatic cylinders, industrial lamps, and buzzers.</p>
+      </article>
+      <article>
+        <img src="images/img-034.jpg" alt="Communication systems oscilloscope reading" />
+        <h3>Communications Laboratory</h3>
+        <p>Performed communications systems experiments using TIMS modules with oscilloscope analysis of AM and FM signals.</p>
+      </article>
+      <article>
+        <img src="images/img-036.jpg" alt="Edibon antenna radiation pattern software" />
+        <h3>Antenna Systems Laboratory</h3>
+        <p>Utilized Edibon software to analyze and interpret antenna radiation patterns.</p>
+      </article>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">Skills</p>
+      <h2>Technical Focus Areas</h2>
+      <div class="skills-grid">
+        <div><h3>Embedded Systems</h3><p>Arduino, ESP32, Raspberry Pi, sensors, wireless telemetry</p></div>
+        <div><h3>Automation</h3><p>PLC, HMI, SCADA, VFD motor control, ladder logic</p></div>
+        <div><h3>AI and Vision</h3><p>YOLO, computer vision, Raspberry Pi camera systems</p></div>
+        <div><h3>Electronics</h3><p>BJT amplifiers, PCB fabrication, oscilloscopes, analog circuits</p></div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <p class="eyebrow">Certifications</p>
+      <h2>Licenses and Language Proficiency</h2>
+      <div class="cert-table">
+        <div><strong>2026</strong><span>PRC Electronics Engineering License</span><p>Passed the March 2026 Electronics Engineering (ECE) and Electronics Technician (ECT) Licensure Examinations and obtained PRC license.</p></div>
+        <div><strong>2025</strong><span>TOEIC Certification</span><p>Achieved a B2 Upper Intermediate proficiency level with a TOEIC score of 940 in Listening and Reading, and 370 in Speaking and Writing.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Thank you for reviewing my portfolio.</h2>
+      <p>I would be glad to discuss upcoming opportunities or collaboration.</p>
+      <div class="contact-links">
+        <a href="mailto:sabariaals@gmail.com">sabariaals@gmail.com</a>
+        <a href="https://hanzodotcom.github.io/">Portfolio Website</a>
+        <a href="https://www.linkedin.com/in/alejandro-luis-sabaria-578560213/">LinkedIn</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
